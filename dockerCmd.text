@@ -1,0 +1,3 @@
+docker ps -a
+docker rm -f qgis-desktop-2-4
+docker run -d --name sonarqube -p 9000:9000 sonarqube
