@@ -8,6 +8,6 @@ import {
 const productRoutes = express.Router();
 
 productRoutes.post("/", authMiddleware, createProductCtrl);
-productRoutes.get("/", authMiddleware, getAllProductCtrl);
+productRoutes.get("/", getAllProductCtrl);
 
 export default productRoutes;
